@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Erin O'Marra">
+	<title>CPS 630 - Lab 2 by Erin O'Marra</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<script src="script.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<header>
+		<h1>Enter a city below</h1>
+		<div id="input">
+			<input type="text" id="city">
+			<button id="button" onclick="getCity()">Give me the weather!</button>
+			<button id="celsius">Celsius</button>
+			<button id="fahrenheit">Fahrenheit</button>
+		</div>
+	</header>
+
+	<section class="weatherInfo">
+		<h1 id="cityName"></h1>
+		<section id="icon"></section>
+		<h2 id="conditions"></h2>
+		<h2 id="currentTemp"></h2>
+		<h2 id="wind"></h2>
+		<h2 id="humidity"></h2>
+	</section>
+
+	<section id="icon">
+	</section>
+
+	<script src="weather.js"></script>
+</body>
+</html>
